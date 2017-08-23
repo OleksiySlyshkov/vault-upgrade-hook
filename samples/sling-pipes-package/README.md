@@ -5,7 +5,7 @@
 
 ## create package with hook
 
-Copy `vault-upgrade-hook-0.0.1-SNAPSHOT.jar` to `META-INF/vault/hooks`
+Copy `vault-upgrade-hook-0.0.1.jar` to `META-INF/vault/hooks`
 Place your scripts to `META-INF/vault/definition/upgrader/foo`
 Package to a zip like this:
     
@@ -26,7 +26,7 @@ Notice output:
 
     ...
     Installing content
-    Creating snapshot for package netcentric:sling-pipes-sample-package:0.0.1-SNAPSHOT 
+    Creating snapshot for package netcentric:sling-pipes-sample-package:0.0.1 
     A META-INF
     A META-INF/vault
     A META-INF/vault/config.xml
@@ -37,12 +37,12 @@ Notice output:
     A META-INF/vault/definition/.content.xml
     Executing content upgrade in phase PREPARE 
     Content version: 0.0.0 
-    Package version: 0.0.1-SNAPSHOT 
-    H Executing upgrade: Update via Sling Pipe Handler. - version 0.0.1-SNAPSHOT
-    I Found sling pipe at /etc/packages/netcentric/sling-pipes-sample-package-0.0.1-SNAPSHOT.zip/jcr:content/vlt:definition/upgrader/test-sling-pipes/installed_pipe
-    I Found sling pipe at /etc/packages/netcentric/sling-pipes-sample-package-0.0.1-SNAPSHOT.zip/jcr:content/vlt:definition/upgrader/test-sling-pipes/end_pipe
-    I Found sling pipe at /etc/packages/netcentric/sling-pipes-sample-package-0.0.1-SNAPSHOT.zip/jcr:content/vlt:definition/upgrader/test-sling-pipes/prepare_pipe
-    I Found sling pipe at /etc/packages/netcentric/sling-pipes-sample-package-0.0.1-SNAPSHOT.zip/jcr:content/vlt:definition/upgrader/test-sling-pipes/failed_pipe
+    Package version: 0.0.1 
+    H Executing upgrade: Update via Sling Pipe Handler. - version 0.0.1
+    I Found sling pipe at /etc/packages/netcentric/sling-pipes-sample-package-0.0.1.zip/jcr:content/vlt:definition/upgrader/test-sling-pipes/installed_pipe
+    I Found sling pipe at /etc/packages/netcentric/sling-pipes-sample-package-0.0.1.zip/jcr:content/vlt:definition/upgrader/test-sling-pipes/end_pipe
+    I Found sling pipe at /etc/packages/netcentric/sling-pipes-sample-package-0.0.1.zip/jcr:content/vlt:definition/upgrader/test-sling-pipes/prepare_pipe
+    I Found sling pipe at /etc/packages/netcentric/sling-pipes-sample-package-0.0.1.zip/jcr:content/vlt:definition/upgrader/test-sling-pipes/failed_pipe
     I Running sling pipe at prepare_pipe
     I Executing prepare_pipe
     I /content/geometrixx/fr/products

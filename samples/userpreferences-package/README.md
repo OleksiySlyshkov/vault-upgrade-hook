@@ -11,7 +11,7 @@
 
 ### Create package with hook
 
-1. Copy `vault-upgrade-hook-0.0.1-SNAPSHOT.jar` to `META-INF/vault/hooks`
+1. Copy `vault-upgrade-hook-0.0.1.jar` to `META-INF/vault/hooks`
 1. Create a node below `META-INF/vault/definition/upgrader/`.
 The node can be named arbitrarily and should have type `sling:Folder`.
 It must have the following properties
